@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: InvenzoIotDev
+  host: InvenzoIotDev
+  disk_quota: 1024M
+  services:
+  - InvenzoIotDev-cloudantNoSQLDB
+  - availability-monitoring-auto
+  - Mobile Client Access-izqvqapx
+  - Internet of Things Platform-63
